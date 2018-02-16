@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HoreApps</string>
+    <string name="Uname">Username</string>
+    <string name="Pass">Password</string>
+    <string name="Login">Login</string>
+    <string name="Cancel">Cancel</string>
+</resources>
