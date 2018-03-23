@@ -16,7 +16,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="221dp"
-        android:ems="10"
+        android:ems="12"
         android:hint="@string/Uname"
         android:inputType="textPersonName" />
 
@@ -27,7 +27,7 @@
         android:layout_alignStart="@+id/edUsername"
         android:layout_below="@+id/edUsername"
         android:layout_marginTop="24dp"
-        android:ems="10"
+        android:ems="12"
         android:hint="@string/Pass"
         android:inputType="textPassword" />
 
@@ -38,7 +38,7 @@
         android:layout_alignStart="@+id/edPassword"
         android:layout_below="@+id/edPassword"
         android:text=" Dont have an account? "
-        android:textSize="11dp"
+        android:textSize="13dp"
         android:textColor="#ffffff"
         android:id="@+id/ket" />
 
@@ -49,16 +49,18 @@
         android:layout_below="@+id/edPassword"
         android:layout_toEndOf="@+id/ket"
         android:text="Sign Up!"
-        android:textSize="11dp"
+        android:textSize="13dp"
         android:textColor="#e53935" />
 
     <Button
         android:id="@+id/bLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/edPassword"
-        android:layout_below="@+id/edPassword"
-        android:layout_marginTop="24dp"
+        android:layout_alignStart="@+id/ket"
+        android:layout_below="@+id/ket"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="40dp"
+        android:background="#556270"
         android:text="@string/Login" />
 
     <Button
@@ -67,7 +69,9 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/bLogin"
         android:layout_alignBottom="@+id/bLogin"
-        android:layout_alignEnd="@+id/edPassword"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/ket"
+        android:background="#556270"
         android:text="@string/Cancel" />
 
 </RelativeLayout>

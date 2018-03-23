@@ -13,19 +13,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".SplashScreenHore"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity android:name=".SplashScreenHore">
+              <intent-filter>
+                  <action android:name="android.intent.action.MAIN" />
+                  <category android:name="android.intent.category.LAUNCHER" />
+
+             </intent-filter>
+
+        </activity>
         <activity
             android:name=".Login"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".RegisterActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".RegisterActivity" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

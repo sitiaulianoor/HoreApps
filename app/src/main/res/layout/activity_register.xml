@@ -69,19 +69,20 @@
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/edConfPassword"
         android:layout_marginBottom="66dp"
+        android:background="#556270"
         android:text="@string/Regist" />
 
     <Button
         android:id="@+id/bLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#556270"
         android:layout_alignBaseline="@+id/bRegist"
         android:layout_alignBottom="@+id/bRegist"
         android:layout_alignEnd="@+id/edConfPassword"
-        android:text="Login" />
+        android:text="Cancel" />
 
     <TextView
-
         android:id="@+id/ket"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
